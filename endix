@@ -28,7 +28,7 @@
       cursor: pointer;
     }
     .question {
-      margin: 15px 0;
+      margin: 10px 0;
     }
   </style>
 </head>
@@ -46,8 +46,8 @@
   <!-- Quiz Bölümü -->
   <div class="section">
     <h2>Quiz</h2>
-    <button onclick="startQuiz('matematik')">Matematik Testi</button>
-    <button onclick="startQuiz('ingilizce')">İngilizce Testi</button>
+    <button type="button" onclick="startQuiz('matematik')">Matematik Testi</button>
+    <button type="button" onclick="startQuiz('ingilizce')">İngilizce Testi</button>
     <div id="quiz"></div>
   </div>
 
@@ -57,13 +57,35 @@
         "1) 12 x 8 kaçtır?",
         "2) Bir üçgenin iç açıları toplamı kaç derecedir?",
         "3) 5/10 kesirinin sadeleşmiş hali nedir?",
-        // ... toplam 15 soru eklenebilir
+        "4) 9 x 9 kaçtır?",
+        "5) 100 ÷ 25 kaçtır?",
+        "6) 7 + 8 x 2 işleminin sonucu nedir?",
+        "7) Bir dikdörtgenin alanı nasıl bulunur?",
+        "8) 3/4 + 1/4 işleminin sonucu nedir?",
+        "9) 15 – 7 işleminin sonucu nedir?",
+        "10) 6 x (2 + 3) işleminin sonucu nedir?",
+        "11) 1 kilometre kaç metredir?",
+        "12) 5² (beşin karesi) kaçtır?",
+        "13) 2/5 kesirinin ondalık karşılığı nedir?",
+        "14) 45 ÷ 9 kaçtır?",
+        "15) Bir dairenin çevresi nasıl bulunur?"
       ],
       ingilizce: [
         "1) 'Apple' kelimesinin Türkçesi nedir?",
         "2) 'I am 12 years old' cümlesi ne anlama gelir?",
         "3) 'Teacher' kelimesi ne demektir?",
-        // ... toplam 15 soru eklenebilir
+        "4) 'Book' kelimesinin Türkçesi nedir?",
+        "5) 'How are you?' sorusu ne demektir?",
+        "6) 'Car' kelimesinin Türkçesi nedir?",
+        "7) 'Dog' kelimesinin Türkçesi nedir?",
+        "8) 'Good morning' ne demektir?",
+        "9) 'School' kelimesinin Türkçesi nedir?",
+        "10) 'Pen' kelimesinin Türkçesi nedir?",
+        "11) 'I like football' cümlesi ne demektir?",
+        "12) 'Mother' kelimesinin Türkçesi nedir?",
+        "13) 'Father' kelimesinin Türkçesi nedir?",
+        "14) 'Computer' kelimesinin Türkçesi nedir?",
+        "15) 'Thank you' ne demektir?"
       ]
     };
 
