@@ -1,2 +1,2 @@
-# Endex.githup.io
+# Endex.github.io
 Endex
